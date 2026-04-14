@@ -1,9 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-image: url('https://github.com/coltonrubenstein-cmyk/Tier-list-for-comp-in-cheerio-tga/main/images/background.jpg');
-    background-size: cover;      /* Make it cover the entire page */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat;
-    color: white;                /* Optional: makes text stand out */
-}
+body { font-family: Arial, sans-serif; margin: 20px; }
+input { margin: 5px; }
+button { margin-left: 5px; }
+li { margin: 5px 0; }
