@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tier List Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Tier List Editor</h1>
+
+<div>
+  <input id="playerName" placeholder="Player Name">
+  <input id="playerRole" placeholder="Role (Ground / Branch Walls)">
+  <input id="playerPoints" type="number" placeholder="Points">
+  <button onclick="addPlayer()">Add Player</button>
+</div>
+
+<ul id="playerList"></ul>
+
+<p>⚠️ Changes are local until you update <code>players.json</code> manually in GitHub.</p>
+
+<script src="script-editor.js"></script>
+</body>
+</html>
